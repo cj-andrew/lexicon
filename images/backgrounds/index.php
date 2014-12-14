@@ -1,0 +1,1 @@
+<?php /* Place custom background images + thumbnails in this folder. */ ?>

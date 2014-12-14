@@ -1,0 +1,1 @@
+<?php /* Place custom header images + thumbnails in this folder. */ ?>

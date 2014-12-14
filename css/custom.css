@@ -1,0 +1,119 @@
+/* Custom CSS for the lexicon theme. documentation to come */
+
+.plural .entry{
+  /*for testing shadows*/
+  -moz-box-shadow:    3px 3px 2px 4px #ccc;
+  -webkit-box-shadow: 3px 3px 2px 4px #ccc;
+  box-shadow:         3px 3px 2px 4px #ccc;
+}
+
+.singular .content{
+  /*for testing shadows*/
+  -moz-box-shadow:    3px 3px 2px 4px #ccc;
+  -webkit-box-shadow: 3px 3px 2px 4px #ccc;
+  box-shadow:         3px 3px 2px 4px #ccc;
+}
+
+.main .entry-title, .entry-header {
+  text-align:left;
+  padding:0;
+}
+
+.entry-header{
+  padding:0; margin:0;
+  width:100%;
+  margin-bottom:10px;
+}
+
+.more-link-wrap {
+  text-align:right;
+}
+
+.more-link-wrap a{
+  background-color:#578bdb;
+  padding:10px;
+  color:#ffffff;
+  -moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+border-radius: 3px; /* future proofing */
+-khtml-border-radius: 3px; /* for old Konqueror browsers */
+}
+
+.more-link-wrap a:link, .more-link-wrap a:hover, .more-link-wrap a:visited, input[type="submit"]:hover, input[type="submit"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="button"]:hover, input[type="button"]:focus, button:hover, button:focus{
+  text-decoration:none;
+  color:#ffffff;
+}
+
+.more-link-wrap a:hover {
+  background-color:#5cac22;
+}
+
+input[type='submit']:hover, input[type='submit']:focus, input[type='reset']:hover, input[type='reset']:focus, input[type='button']:hover, input[type='button']:focus, button:hover, button:focus, .comment-reply-link:hover, .comment-reply-link:focus, .page-links a:hover, .page-links a:focus, .mejs-time-rail .mejs-time-loaded {
+background-color:#5cac22 !important;
+}
+
+.singular .entry > .wrap, .error-404 .entry > .wrap, #comments-template {
+   /* padding-left: 50px;
+    padding-right: 75px;*/
+  padding-left:0px; padding-right:75px;
+   background: rgba(255,255,255, 0.9);
+  margin-bottom:0px;
+}
+
+.singular .entry-header{
+  padding-left:50px;
+}
+
+.singular .entry-content, .singular .entry-footer, #respond {
+    opacity:1 !important;
+  	text-align: left;
+  	background: rgba(255,255,255, 1);
+  	width:100%;
+  	padding-left: 50px;
+    padding-right: 75px;
+  	margin:0 auto;
+}
+
+.singular .entry-content, {border-top:1px solid #dadada;}
+
+ #reply-title{
+  text-align:left;
+  border-bottom:1px solid #dadada;
+}
+
+#reply-title:after, .singular .main .entry-title::after{
+  background:none;
+}
+
+.plural .entry-footer {
+    text-align: left;
+    border-top: 1px solid #dadada;
+}
+
+#site-title, #site-title a {
+color: #fbfbfb;
+}
+
+#site-title a:link, #site-title a:hover, #site-title a:visited{
+color:#fbfbfb;
+text-decoration:none;
+}
+
+#site-title a:hover{
+color:#fff;
+font-size:1.7rem;
+}
+
+#site-title::before {
+color: #fff;
+font-size: 45px;
+}
+
+button:hover, .menu-toggle button:hover, .media-info-toggle:hover {
+text-decoration: none;
+}
+
+#menu-primary li a:hover{
+  background-color:#5cac22 !important;
+}
+
