@@ -106,7 +106,7 @@ function lexicon_default_backgrounds( $backgrounds ) {
  * @access public
  * @param  string  $hex
  * @return string
- */
+ *
 function lexicon_header_icon( $icon ) {
 	return 'default' === $icon ? 'icon-pencil-square-o' : $icon;
 }

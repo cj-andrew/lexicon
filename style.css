@@ -13,34 +13,39 @@
  */
 
 /* Custom CSS for the lexicon theme. documentation to come */
-
+/*
 .plural .entry{
-  /*for testing shadows*/
+  /*for testing shadows
   -moz-box-shadow:    3px 3px 2px 4px #ccc;
   -webkit-box-shadow: 3px 3px 2px 4px #ccc;
   box-shadow:         3px 3px 2px 4px #ccc;
-}
+}*/
 
-.singular .content{
-  /*for testing shadows*/
+/*.singular .content{
+  /*for testing shadows
   -moz-box-shadow:    3px 3px 2px 4px #ccc;
   -webkit-box-shadow: 3px 3px 2px 4px #ccc;
   box-shadow:         3px 3px 2px 4px #ccc;
+}*/
+
+body{
+  line-height:1.2;
 }
 
 .main .entry-title, .entry-header {
   text-align:left;
-  padding:0;
+  /*padding:0;*/
 }
 
 .entry-header{
-  padding:0; margin:0;
+  /*padding:0; margin:0;
   width:100%;
-  margin-bottom:10px;
+  margin-bottom:10px;*/
 }
 
 .more-link-wrap {
-  text-align:right;
+  text-align:left;
+  margin-bottom:2.5rem;
 }
 
 .more-link-wrap a{
@@ -68,24 +73,31 @@ background-color:#5cac22 !important;
 
 .singular .entry > .wrap, .error-404 .entry > .wrap, #comments-template {
    /* padding-left: 50px;
-    padding-right: 75px;*/
+    padding-right: 75px;
   padding-left:0px; padding-right:75px;
-   background: rgba(255,255,255, 0.9);
-  margin-bottom:0px;
+   /*background: rgba(255,255,255, 0.9);
+  margin-bottom:0px;*/
 }
 
 .singular .entry-header{
-  padding-left:50px;
+  /*padding-left:50px;*/
+}
+
+.singular .entry-byline{
+  margin-bottom:0;
+  margin-top:0;
+  padding-bottom:0.75rem;
+  border-bottom:1px solid #dadada;
 }
 
 .singular .entry-content, .singular .entry-footer, #respond {
-    opacity:1 !important;
+    /*opacity:1 !important;*/
   	text-align: left;
-  	background: rgba(255,255,255, 1);
-  	width:100%;
+  	/*background: rgba(255,255,255, 1);*/
+  	/*width:100%;
   	padding-left: 50px;
     padding-right: 75px;
-  	margin:0 auto;
+  	margin:0 auto;*/
 }
 
 .singular .entry-content, {border-top:1px solid #dadada;}
@@ -93,35 +105,51 @@ background-color:#5cac22 !important;
  #reply-title{
   text-align:left;
   border-bottom:1px solid #dadada;
+  padding-bottom:0.75rem;
 }
 
 #reply-title:after, .singular .main .entry-title::after{
   background:none;
+  display:none;
 }
 
 .plural .entry-footer {
     text-align: left;
     border-top: 1px solid #dadada;
+    padding-top:1.5rem;
 }
 
 #site-title, #site-title a {
-color: #fbfbfb;
+/*color: #ffffff;*/
 }
 
+#site-title, #site-title a{
+  font-family:'Playfair Display',Georgia,serif;
+  font-size:3.1rem;
+  }
+  
+ #site-title a:hover {
+  /*font-size:3.2rem;*/
+  /*color:#5cac22;*/
+  }
+
 #site-title a:link, #site-title a:hover, #site-title a:visited{
-color:#fbfbfb;
+/*color:#ffffff;*/
 text-decoration:none;
 }
 
-#site-title a:hover{
-color:#fff;
-font-size:1.7rem;
-}
-
 #site-title::before {
-color: #fff;
+/*color: #fff;*/
 font-size: 45px;
 }
+
+.menu-toggle button, .menu-toggle button:visited{
+  background: rgba( 87, 139, 219, 0.95 );
+}
+
+.menu-toggle button:hover, .media-info-toggle:hover{
+  background-color:#5cac22 !important;
+  }
 
 button:hover, .menu-toggle button:hover, .media-info-toggle:hover {
 text-decoration: none;
@@ -131,3 +159,8 @@ text-decoration: none;
   background-color:#5cac22 !important;
 }
 
+.ltr #site-description {margin-left:0;}
+
+h2#site-description{
+  display:block;
+}
