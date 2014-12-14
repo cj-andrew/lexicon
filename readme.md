@@ -6,7 +6,6 @@ For this reason, no custom templates were created for this version. In addition,
 
 Special thanks go to Tammie Lister (@karmatosed), Mel Choyce (@melchoyce) and Justin Tadlock (@greenshady) for looking in on the design solution offered by Lexicon, and offering invaluable direction. They rock!
 
-This sample child theme should be documented sufficiently enough for anyone with an intermediate level of knowledge to complete a custom child theme.  Some beginners with a thirst for becoming a theme author can probably do some cool stuff too.
 
 ## Understanding Lexicon
 
