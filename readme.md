@@ -9,7 +9,7 @@ Special thanks go to Tammie Lister (@karmatosed), Mel Choyce (@melchoyce) and Ju
 
 ## Understanding Lexicon
 
-Just like the Saga parent theme was created as a theme specifically for writers.  
+Just like the Saga parent theme Lexicon was created for writers.  
 
 ## Download Lexicon
 
