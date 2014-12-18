@@ -4,14 +4,14 @@ Lexicon is a child theme for writers and bloggers, and it is based on the Saga t
 
 The Lexicon child theme was created as part of the WordPress Theme Review Team's "Design Challenge" weekend event, held on 13th to 14th December 2014. 
 
-The aim of this child theme is to provide an clean base that inspires creative writing. 
+The aim of this child theme is to provide a clean base to inspire creative writing. 
 
 No extra templates or custom features have been included in this child theme. Instead, Saga's existing features were used to realise Lexicon's design goals. 
 
 Many thanks to the kind Team Review Team facilitators for hosting a successful design challenge weekend on 12 - 14 Dec 2014, and helping us all out with helpful critique and recommendations.
 
 
-Special thanks go to Tammie Lister (@karmatosed), Mel Choyce (@melchoyce) and Justin Tadlock (@greenshady), for looking in on the design solution offered by Lexicon, and providing invaluable direction. They rock!
+Special thanks go to [Tammie Lister](https://profiles.wordpress.org/karmatosed), [Mel Choyce](https://profiles.wordpress.org/melchoyce) and [Justin Tadlock] (https://profiles.wordpress.org/greenshady), for looking in Lexicon's design solution, and providing invaluable direction. They rock!
 
 
 ## Usage notes
@@ -38,12 +38,12 @@ Alternatively, for any questions directly related to the Lexicon theme, feel fre
 
 ## Copyright and License
 
-The following resources are not included with the theme but are external resources linked to within the theme.
+The following resources are not included with Lexicon, but they are external resources linked to within the theme.
 
 * [Playfair Display Font](http://www.google.com/fonts/specimen/Playfair+Display) by Claus Eggers Sørensen - Licensed under the [SIL Open Font License, version 1.1](http://scripts.sil.org/OFL).
 * [Lato Font](http://www.google.com/fonts/specimen/Lato) by Lukasz Dziedzic - Licensed under the [SIL Open Font License, version 1.1](http://scripts.sil.org/OFL).
 
-The following resources are included within the theme package.
+The following resources are included within the Lexicon theme package.
 
 * [Hybrid Core Framework](http://themehybrid.com/hybrid-core) by Justin Tadlock - Licensed under the [GPL, version 2 or later](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html).
 * [Font Awesome](http://fontawesome.io) by Dave Gandy - Licensed under the [SIL Open Font License, version 1.1](http://scripts.sil.org/OFL).
