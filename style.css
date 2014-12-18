@@ -3,50 +3,160 @@
  * Theme URI:   http://solidgoldextra.com/themes/lexicon
  * Description: Part of the WordPress Design Challenge.
  * Version:     1.0.0
- * Author:      solidgoldextra
- * Author URI:  http://solidgoldextra.com
+ * Author:      C. James
+ * Author URI:  http://wordpress.org/solidgoldextra
  * Text Domain: saga-child
  * Tags:        custom-background, custom-colors, custom-header
  * License:     GNU General Public License v2.0 or later
  * License URI: http://www.gnu.org/licenses/gpl-2.0.html
  * Template:    saga
+ * Template Version: 1.0.2
  */
 
-/* Custom CSS for the lexicon theme. documentation to come */
-/*
-.plural .entry{
-  /*for testing shadows
-  -moz-box-shadow:    3px 3px 2px 4px #ccc;
-  -webkit-box-shadow: 3px 3px 2px 4px #ccc;
-  box-shadow:         3px 3px 2px 4px #ccc;
-}*/
+/* 
+* Lexicon styles start here
+* =========================
+* Content
+* =========================
+* 1. Titles and Headers
+* 2. Buttons and Links
+* 3. Main Body
+*
+*
+*
+*/
 
-/*.singular .content{
-  /*for testing shadows
-  -moz-box-shadow:    3px 3px 2px 4px #ccc;
-  -webkit-box-shadow: 3px 3px 2px 4px #ccc;
-  box-shadow:         3px 3px 2px 4px #ccc;
-}*/
 
-body{
-  line-height:1.2;
+----------------------------------------
+/* 1. Title and Headers
+***************************************/
+
+#site-title, #site-title a{
+  font-family:'Playfair Display',Georgia,serif;
+  font-size:2.5rem;
+  }
+  
+#site-title, #site-title a, #site-description{
+  /*color: #3B5957 !important;*/
+	text-shadow: 0px 1px 0px rgba(255,255,255,.3), 0px -1px 0px rgba(0,0,0,.7);
 }
 
-.main .entry-title, .entry-header {
+/*this controls the size of the icon, if it is used. it is switched off by default
+ *dropping down to 32px (multiples of 16px) 
+ */
+#site-title::before {
+font-size: 32px;
+}
+
+h2#site-description{
+  font-family: "Lato", sans-serif;
+  font-style: normal;
+  color:#000;
+}
+
+#branding {
+    max-width: 70%;
+}
+
+.ltr .main .entry-title, .ltr .entry-header, .rtl .main .entry-title, .rtl .entry-header {
   text-align:left;
-  /*padding:0;*/
 }
 
-.entry-header{
-  /*padding:0; margin:0;
-  width:100%;
-  margin-bottom:10px;*/
-}
-
-.more-link-wrap {
+.ltr #reply-title, .rtl #reply-title{
   text-align:left;
-  margin-bottom:2.5rem;
+  }
+
+ #reply-title{
+  border-bottom:1px solid rgb(119,119,119, 0.1);
+  padding-bottom:2.25rem;
 }
+
+#reply-title:after, .singular .main .entry-title::after{
+  background:none;
+  display:none;
+}
+
+
+.singular .entry-header {
+    border-bottom: 1px solid rgb(119,119,119, 0.1);
+    margin-bottom:1rem;
+    padding-bottom:2.25rem;
+}
+
+.main .entry-subtitle {
+    font-family: Lato,sans-serif;
+    padding-top: 0.32em;
+   }
+   
+ .ltr h1, .ltr h2, .ltr h3, .ltr h4, .ltr h5, .ltr h6, .rtl h1, .rtl h2, .rtl h3, .rtl h4, .rtl h5, .rtl h6 {
+    text-align: left;
+    border-bottom: 1px solid rgb(119,119,119, 0.1);
+}
+
+.singular h1, .singular h2, .singular h3, .singular h4, .singular h5, .singular h6 {
+    padding-bottom:1.35rem;
+    margin-bottom:2.25rem;
+}
+
+h1:after, h2:after, h3:after, h4:after, h5:after, h6:after, .singular-literature .entry-meta:after {
+  display:none;
+  }
+  
+  .main .entry-title, #menu-primary-title, #site-title, #site-description {
+    border: none;
+
+}
+
+#menu-primary-title, #site-title, #site-description{
+  padding-bottom:0;
+  margin:0; padding:0; 
+  }
+
+.entry-byline{
+  margin-bottom:0;
+  }
+  
+.singular .entry-byline{
+  padding-bottom:1.25rem;
+}
+  
+ .singular h1.entry-title{
+ margin:0;
+ }
+
+
+----------------------------------------
+/* 2. Buttons and Links
+***************************************/
+
+#site-title a:link, #site-title a:hover, #site-title a:visited{
+text-decoration:none;
+}
+
+.menu-toggle button, .menu-toggle button:visited{
+  background: rgba( 87, 139, 219, 0.95 );
+}
+
+.menu-toggle button:hover, .media-info-toggle:hover{
+  background-color:#5cac22;
+  }
+
+button:hover, .menu-toggle button:hover, .media-info-toggle:hover {
+text-decoration: none;
+}
+
+#menu-primary li a:hover{
+  background-color:#5cac22;
+}
+
+.ltr .more-link-wrap, .rtl .more-link-wrap {
+  text-align:left;
+}
+
+.more-link-wrap{
+    padding-top:1.15rem;
+    margin-bottom:2.5rem;
+    }
 
 .more-link-wrap a{
   background-color:#578bdb;
@@ -65,102 +175,63 @@ border-radius: 3px; /* future proofing */
 
 .more-link-wrap a:hover {
   background-color:#5cac22;
+  text-decoration:underline;
 }
 
 input[type='submit']:hover, input[type='submit']:focus, input[type='reset']:hover, input[type='reset']:focus, input[type='button']:hover, input[type='button']:focus, button:hover, button:focus, .comment-reply-link:hover, .comment-reply-link:focus, .page-links a:hover, .page-links a:focus, .mejs-time-rail .mejs-time-loaded {
 background-color:#5cac22 !important;
 }
 
-.singular .entry > .wrap, .error-404 .entry > .wrap, #comments-template {
-   /* padding-left: 50px;
-    padding-right: 75px;
-  padding-left:0px; padding-right:75px;
-   /*background: rgba(255,255,255, 0.9);
-  margin-bottom:0px;*/
+.entry-terms a{
+  background-color:#578bdb;
+  padding:7px;
+  color:#ffffff;
+  -moz-border-radius: 3px;
+	-webkit-border-radius: 3px;
+border-radius: 3px; /* future proofing */
+-khtml-border-radius: 3px; /* for old Konqueror browsers */
 }
 
-.singular .entry-header{
-  /*padding-left:50px;*/
+.entry-terms a:link, .entry-terms a:hover, .entry-terms a:visited { 
+    text-decoration:none;
+    color:#fff;
 }
 
-.singular .entry-byline{
-  margin-bottom:0;
-  margin-top:0;
-  padding-bottom:0.75rem;
-  border-bottom:1px solid #dadada;
+.entry-terms a:hover{
+    text-decoration:underline;
+   background-color:#5cac22;
 }
 
-.singular .entry-content, .singular .entry-footer, #respond {
-    /*opacity:1 !important;*/
+
+----------------------------------------
+/* 3. Main Body
+***************************************/
+
+.ltr .singular .entry-content, .ltr .singular .entry-footer, .ltr #respond,.rtl .singular .entry-content, .rtl .singular .entry-footer, .rtl #respond {
   	text-align: left;
-  	/*background: rgba(255,255,255, 1);*/
-  	/*width:100%;
-  	padding-left: 50px;
-    padding-right: 75px;
-  	margin:0 auto;*/
 }
 
-.singular .entry-content, {border-top:1px solid #dadada;}
+.singular .entry-content, {border-top:1px solid rgb(119,119,119, 0.1);}
 
- #reply-title{
-  text-align:left;
-  border-bottom:1px solid #dadada;
-  padding-bottom:0.75rem;
+
+
+.ltr .plural .entry-footer, .rtl .plural .entry-footer{
+    text-align: left;
 }
 
-#reply-title:after, .singular .main .entry-title::after{
-  background:none;
-  display:none;
-}
 
 .plural .entry-footer {
-    text-align: left;
-    border-top: 1px solid #dadada;
+    border-top: 1px solid rgb(119,119,119, 0.1);
     padding-top:1.5rem;
 }
 
-#site-title, #site-title a {
-/*color: #ffffff;*/
-}
+ 
+ .ltr .entry-footer, .rtl .entry-footer{
+  text-align:left;
+ }
+   
 
-#site-title, #site-title a{
-  font-family:'Playfair Display',Georgia,serif;
-  font-size:3.1rem;
-  }
-  
- #site-title a:hover {
-  /*font-size:3.2rem;*/
-  /*color:#5cac22;*/
-  }
-
-#site-title a:link, #site-title a:hover, #site-title a:visited{
-/*color:#ffffff;*/
-text-decoration:none;
-}
-
-#site-title::before {
-/*color: #fff;*/
-font-size: 45px;
-}
-
-.menu-toggle button, .menu-toggle button:visited{
-  background: rgba( 87, 139, 219, 0.95 );
-}
-
-.menu-toggle button:hover, .media-info-toggle:hover{
-  background-color:#5cac22 !important;
-  }
-
-button:hover, .menu-toggle button:hover, .media-info-toggle:hover {
-text-decoration: none;
-}
-
-#menu-primary li a:hover{
-  background-color:#5cac22 !important;
-}
-
-.ltr #site-description {margin-left:0;}
-
-h2#site-description{
+.format-aside .entry-terms {
   display:block;
+  padding-top:3rem;
 }

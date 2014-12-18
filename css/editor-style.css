@@ -13,3 +13,40 @@ html.wp-fullscreen body#tinymce {
 	padding:   1.5rem 1.5rem 0;
 	border:    none;
 }
+
+----------------------------------------
+/* 1. Title and Headers
+***************************************/
+ .ltr h1, .ltr h2, .ltr h3, .ltr h4, .ltr h5, .ltr h6, .rtl h1, .rtl h2, .rtl h3, .rtl h4, .rtl h5, .rtl h6 {
+    text-align: left;
+}
+
+ h1, h2, h3, h4, h5, h6 {
+    text-align:left;
+    border-bottom: 1px solid #ccc;
+    padding-bottom:1.35rem;
+    margin-bottom:2.25rem;
+}
+
+h1:after, h2:after, h3:after, h4:after, h5:after, h6:after, .singular-literature .entry-meta:after {
+  display:none;
+  }
+
+
+----------------------------------------
+/* 3. Main Body
+***************************************/
+
+.ltr .singular .entry-content, .ltr .singular .entry-footer, .ltr #respond,.rtl .singular .entry-content, .rtl .singular .entry-footer, .rtl #respond {
+  	text-align: left;
+}
+
+.singular .entry-content, {border-top:1px solid #ccc;}
+
+
+
+.ltr .plural .entry-footer, .rtl .plural .entry-footer{
+    text-align: left;
+}
+
+
