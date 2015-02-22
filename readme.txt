@@ -22,23 +22,23 @@ A few things to note, however:
 
 * Featured images are only displayed if they are at minimum 1100px in width and 500px in height.  This is to maintain an aesthetic consistency throughout the theme.
 
-* Inputting a social profile link in the Primary menu will automatically display an icon for the particular social network on the front end.
+* Entering a social profile link in the Primary menu will automatically display an icon for that particular social network, on the front end.
 
 
 ## Recommended plugins
 
-The [Subtitles plugin](http://wordpress.org/plugins/subtitles) is an integral part of this theme's design, and is recommended.
+The [Subtitles plugin](http://wordpress.org/plugins/subtitles) is an integral part of this theme's design, and is recommended, but not compulsory.
 
 
 ## Professional Support
 
-Since Lexicon is based on the Saga theme, you can access the support forums at [Theme Hybrid](http://themehybrid.com/support), to get feature support. There, you can get support for all Justin Tadlock's plugins and themes for a community of 40,000+ users (and growing).
+Lexicon is a derivative of the Saga theme. To get support for Saga (this theme's parent), you can access the forums over at [Theme Hybrid](http://themehybrid.com/support). There, you can get support for all Justin Tadlock's plugins and themes for a community of 40,000+ users (and growing).
 
-Alternatively, for any questions directly related to the Lexicon theme, feel free to contact me as `@solidgoldextra` on Slack or Twitter.
+Alternatively, for any questions directly related to the Lexicon theme, start from the [WordPress Support Forums] (https://wordpress.org/support/forum/themes-and-templates). You may also contact me as `@wpstudio5` on Slack or Twitter.
 
 ## Copyright and License
 
-The following resources are not included with Lexicon, but they are external resources linked to within the theme.
+The following are not included with Lexicon, but they are external resources linked to from within the theme.
 
 * [Playfair Display Font](http://www.google.com/fonts/specimen/Playfair+Display) by Claus Eggers Sørensen - Licensed under the [SIL Open Font License, version 1.1](http://scripts.sil.org/OFL).
 * [Lato Font](http://www.google.com/fonts/specimen/Lato) by Lukasz Dziedzic - Licensed under the [SIL Open Font License, version 1.1](http://scripts.sil.org/OFL).
@@ -52,7 +52,7 @@ The following resources are included within the Lexicon theme package.
 
 All other resources and theme elements are licensed under the [GNU GPL](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html), version 2 or later.
 
-2014 &copy; [CJ Andrew](http://wpstudio5.com).
+2015 &copy; [CJ Andrew](http://wpstudio5.com/about).
 
 ## Changelog
 
