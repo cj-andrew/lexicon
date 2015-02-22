@@ -1,9 +1,9 @@
 <?php
 /**
  * @package    Lexicon
- * @author     Solidgoldextra <james@solidgoldextra.com>
- * @copyright  Copyright (c) 2014, Solidgoldextra
- * @link       http://solidgoldextra.com/themes/lexicon
+ * @author     CJ Andrew <cj@wpstudio5.com>
+ * @copyright  Copyright (c) 2014, WPStudio5
+ * @link       http://wpstudio5.com/themes/lexicon
  * @license    http://www.gnu.org/licenses/old-licenses/gpl-2.0.html
  */
 

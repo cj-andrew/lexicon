@@ -1,19 +1,19 @@
 /**
- * Theme Name:  Lexicon
- * Theme URI:   http://solidgoldextra.com/themes/lexicon
- * Description: part of the WordPress design challenge weekend.
- * Version:     1.0.0
- * Author:      C. James
- * Author URI:  http://wordpress.org/solidgoldextra
- * Text Domain: saga-child
- * Tags:        custom-background, custom-colors, custom-header
- * License:     GNU General Public License v2.0 or later
- * License URI: http://www.gnu.org/licenses/gpl-2.0.html
- * Template:    saga
- * Template Version: 1.0.2
- */
+* Theme Name:  Lexicon
+* Theme URI:   http://wpstudio5.com/themes/lexicon
+* Description: Quiet theme for writers. A result of the WordPress design challenge weekend.
+* Version:     1.0.0
+* Author:      CJ Andrew
+* Author URI:  http://wordpress.org/wpstudio5
+* Text Domain: saga-child
+* Tags:        custom-background, custom-colors, custom-header
+* License:     GNU General Public License v2.0 or later
+* License URI: http://www.gnu.org/licenses/gpl-2.0.html
+* Template:    saga
+* Template Version: 1.0.2
+*/
 
-/* 
+/*
 * Lexicon styles start here
 * =========================
 * Content
@@ -31,207 +31,115 @@
 /* 1. Title and Headers
 ***************************************/
 
-#site-title, #site-title a{
-  font-family:'Playfair Display',Georgia,serif;
-  font-size:2.5rem;
-  }
-  
-#site-title, #site-title a, #site-description{
-  /*color: #3B5957 !important;*/
-	text-shadow: 0px 1px 0px rgba(255,255,255,.3), 0px -1px 0px rgba(0,0,0,.7);
-}
+#site-title, #site-title a { font-family: 'Playfair Display',Georgia,serif; font-size: 2.5rem; }
+
+#site-title, #site-title a, #site-description { text-shadow: 0px 1px 0px rgba(255,255,255,.3), 0px -1px 0px rgba(0,0,0,.7); /*color  #3B5957 !important*/ }
 
 /*this controls the size of the icon, if it is used. it is switched off by default
- *dropping down to 32px (multiples of 16px) 
- */
-#site-title::before {
-font-size: 32px;
-}
+*dropping down to 32px (multiples of 16px)
+*/
+#site-title::before { font-size: 32px; }
 
-h2#site-description{
-  font-family: "Lato", sans-serif;
-  font-style: normal;
-  color:#000;
-}
+h2#site-description { color: #000; font-family: "Lato", sans-serif; font-style: normal; }
 
-#branding {
-    max-width: 70%;
-}
+#branding { max-width: 70%; }
 
-.ltr .main .entry-title, .ltr .entry-header, .rtl .main .entry-title, .rtl .entry-header {
-  text-align:left;
-}
+.ltr .main .entry-title, .ltr .entry-header, .rtl .main .entry-title, .rtl .entry-header { text-align: left; }
 
-.ltr #reply-title, .rtl #reply-title{
-  text-align:left;
-  }
+.ltr #reply-title, .rtl #reply-title { text-align: left; }
 
- #reply-title{
-  border-bottom:1px solid rgb(119,119,119, 0.1);
-  padding-bottom:2.25rem;
-}
+#reply-title { border-bottom: 1px solid rgb(119,119,119, 0.1); padding-bottom: 2.25rem; }
 
-#reply-title:after, .singular .main .entry-title::after{
-  background:none;
-  display:none;
-}
+#reply-title:after, .singular .main .entry-title::after { background: none; display: none; }
 
 
-.singular .entry-header {
-    border-bottom: 1px solid rgb(119,119,119, 0.1);
-    margin-bottom:1rem;
-    padding-bottom:2.25rem;
-}
+.singular .entry-header { border-bottom: 1px solid rgb(119,119,119, 0.1); margin-bottom: 1rem; padding-bottom: 2.25rem; }
 
-.main .entry-subtitle {
-    font-family: Lato,sans-serif;
-    padding-top: 0.32em;
-   }
-   
- .ltr h1, .ltr h2, .ltr h3, .ltr h4, .ltr h5, .ltr h6, .rtl h1, .rtl h2, .rtl h3, .rtl h4, .rtl h5, .rtl h6 {
-    text-align: left;
-    border-bottom: 1px solid rgb(119,119,119, 0.1);
-}
+.main .entry-subtitle { font-family: Lato,sans-serif; padding-top: 0.32em; }
 
-.singular h1, .singular h2, .singular h3, .singular h4, .singular h5, .singular h6 {
-    padding-bottom:1.35rem;
-    margin-bottom:2.25rem;
-}
+.ltr h1, .ltr h2, .ltr h3, .ltr h4, .ltr h5, .ltr h6, .rtl h1, .rtl h2, .rtl h3, .rtl h4, .rtl h5, .rtl h6 { border-bottom: 1px solid rgb(119,119,119, 0.1); text-align: left; }
 
-h1:after, h2:after, h3:after, h4:after, h5:after, h6:after, .singular-literature .entry-meta:after {
-  display:none;
-  }
-  
-  .main .entry-title, #menu-primary-title, #site-title, #site-description {
-    border: none;
+.singular h1, .singular h2, .singular h3, .singular h4, .singular h5, .singular h6 { margin-bottom: 2.25rem; padding-bottom: 1.35rem; }
 
-}
+h1:after, h2:after, h3:after, h4:after, h5:after, h6:after, .singular-literature .entry-meta:after { display: none; }
 
-#menu-primary-title, #site-title, #site-description{
-  padding-bottom:0;
-  margin:0; padding:0; 
-  }
+.main .entry-title, #menu-primary-title, #site-title, #site-description { border: none; }
 
-.entry-byline{
-  margin-bottom:0;
-  }
-  
-.singular .entry-byline{
-  padding-bottom:1.25rem;
-}
-  
- .singular h1.entry-title{
- margin:0;
- }
+#menu-primary-title, #site-title, #site-description { margin: 0; padding: 0; padding-bottom: 0; }
+
+.entry-byline { margin-bottom: 0; }
+
+.singular .entry-byline { padding-bottom: 1.25rem; }
+
+.singular h1.entry-title { margin: 0; }
 
 
 ----------------------------------------
 /* 2. Buttons and Links
 ***************************************/
 
-#site-title a:link, #site-title a:hover, #site-title a:visited{
-text-decoration:none;
-}
+#site-title a:link, #site-title a:hover, #site-title a:visited { text-decoration: none; }
 
-.menu-toggle button, .menu-toggle button:visited{
-  background: rgba( 87, 139, 219, 0.95 );
-}
+.menu-toggle button, .menu-toggle button:visited { background: rgba( 87, 139, 219, 0.95 ); }
 
-.menu-toggle button:hover, .media-info-toggle:hover{
-  background-color:#5cac22;
-  }
+.menu-toggle button:hover, .media-info-toggle:hover { background-color: #5cac22; }
 
-button:hover, .menu-toggle button:hover, .media-info-toggle:hover {
-text-decoration: none;
-}
+button:hover, .menu-toggle button:hover, .media-info-toggle:hover { text-decoration: none; }
 
-#menu-primary li a:hover{
-  background-color:#5cac22;
-}
+#menu-primary li a:hover { background-color: #5cac22; }
 
-.ltr .more-link-wrap, .rtl .more-link-wrap {
-  text-align:left;
-}
+.ltr .more-link-wrap, .rtl .more-link-wrap { text-align: left; }
 
-.more-link-wrap{
-    padding-top:1.15rem;
-    margin-bottom:2.5rem;
-    }
+.more-link-wrap { margin-bottom: 2.5rem; padding-top: 1.15rem; }
 
-.more-link-wrap a{
-  background-color:#578bdb;
-  padding:10px;
-  color:#ffffff;
+.more-link-wrap a {
+  -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
-	-webkit-border-radius: 3px;
-border-radius: 3px; /* future proofing */
--khtml-border-radius: 3px; /* for old Konqueror browsers */
+  -khtml-border-radius: 3px; /* for old Konqueror browsers */
+  background-color: #578bdb;
+  border-radius: 3px; /* future proofing */
+  color: #ffffff;
+  padding: 10px;
 }
 
-.more-link-wrap a:link, .more-link-wrap a:hover, .more-link-wrap a:visited, input[type="submit"]:hover, input[type="submit"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="button"]:hover, input[type="button"]:focus, button:hover, button:focus{
-  text-decoration:none;
-  color:#ffffff;
-}
+.more-link-wrap a:link, .more-link-wrap a:hover, .more-link-wrap a:visited, input[type="submit"]:hover, input[type="submit"]:focus, input[type="reset"]:hover, input[type="reset"]:focus, input[type="button"]:hover, input[type="button"]:focus, button:hover, button:focus { color: #ffffff; text-decoration: none; }
 
-.more-link-wrap a:hover {
-  background-color:#5cac22;
-  text-decoration:underline;
-}
+.more-link-wrap a:hover { background-color: #5cac22; text-decoration: underline; }
 
-input[type='submit']:hover, input[type='submit']:focus, input[type='reset']:hover, input[type='reset']:focus, input[type='button']:hover, input[type='button']:focus, button:hover, button:focus, .comment-reply-link:hover, .comment-reply-link:focus, .page-links a:hover, .page-links a:focus, .mejs-time-rail .mejs-time-loaded {
-background-color:#5cac22 !important;
-}
+input[type='submit']:hover, input[type='submit']:focus, input[type='reset']:hover, input[type='reset']:focus, input[type='button']:hover, input[type='button']:focus, button:hover, button:focus, .comment-reply-link:hover, .comment-reply-link:focus, .page-links a:hover, .page-links a:focus, .mejs-time-rail .mejs-time-loaded { background-color: #5cac22 !important; }
 
-.entry-terms a{
-  background-color:#578bdb;
-  padding:7px;
-  color:#ffffff;
+.entry-terms a {
+  -webkit-border-radius: 3px;
   -moz-border-radius: 3px;
-	-webkit-border-radius: 3px;
-border-radius: 3px; /* future proofing */
--khtml-border-radius: 3px; /* for old Konqueror browsers */
+  -khtml-border-radius: 3px; /* for old Konqueror browsers */
+  background-color: #578bdb;
+  border-radius: 3px; /* future proofing */
+  color: #ffffff;
+  padding: 7px;
 }
 
-.entry-terms a:link, .entry-terms a:hover, .entry-terms a:visited { 
-    text-decoration:none;
-    color:#fff;
-}
+.entry-terms a:link, .entry-terms a:hover, .entry-terms a:visited { color: #fff; text-decoration: none; }
 
-.entry-terms a:hover{
-    text-decoration:underline;
-   background-color:#5cac22;
-}
+.entry-terms a:hover { background-color: #5cac22; text-decoration: underline; }
 
 
 ----------------------------------------
 /* 3. Main Body
 ***************************************/
 
-.ltr .singular .entry-content, .ltr .singular .entry-footer, .ltr #respond,.rtl .singular .entry-content, .rtl .singular .entry-footer, .rtl #respond {
-  	text-align: left;
-}
+.ltr .singular .entry-content, .ltr .singular .entry-footer, .ltr #respond,.rtl .singular .entry-content, .rtl .singular .entry-footer, .rtl #respond { text-align: left; }
 
-.singular .entry-content, {border-top:1px solid rgb(119,119,119, 0.1);}
+.singular .entry-content, { border-top: 1px solid rgb(119,119,119, 0.1); }
 
 
 
-.ltr .plural .entry-footer, .rtl .plural .entry-footer{
-    text-align: left;
-}
+.ltr .plural .entry-footer, .rtl .plural .entry-footer { text-align: left; }
 
 
-.plural .entry-footer {
-    border-top: 1px solid rgb(119,119,119, 0.1);
-    padding-top:1.5rem;
-}
+.plural .entry-footer { border-top: 1px solid rgb(119,119,119, 0.1); padding-top: 1.5rem; }
 
- 
- .ltr .entry-footer, .rtl .entry-footer{
-  text-align:left;
- }
-   
 
-.format-aside .entry-terms {
-  display:block;
-  padding-top:3rem;
-}
+.ltr .entry-footer, .rtl .entry-footer { text-align: left; }
+
+
+.format-aside .entry-terms { display: block; padding-top: 3rem; }

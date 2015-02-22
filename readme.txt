@@ -52,7 +52,7 @@ The following resources are included within the Lexicon theme package.
 
 All other resources and theme elements are licensed under the [GNU GPL](http://www.gnu.org/licenses/old-licenses/gpl-2.0.html), version 2 or later.
 
-2014 &copy; [C. James](http://solidgoldextra.com).
+2014 &copy; [CJ Andrew](http://wpstudio5.com).
 
 ## Changelog
 
