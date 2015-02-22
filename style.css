@@ -30,23 +30,24 @@
 ----------------------------------------
 /* 1. Title and Headers
 ***************************************/
+#site-title, #site-title a { font-family: 'Playfair Display',Georgia,serif !important; font-size: 2.5rem !important; color: rgba( 87, 139, 219, 0.75 ) !important; }
 
-#site-title, #site-title a { font-family: 'Playfair Display',Georgia,serif; font-size: 2.5rem; }
-
-#site-title, #site-title a, #site-description { text-shadow: 0px 1px 0px rgba(255,255,255,.3), 0px -1px 0px rgba(0,0,0,.7); /*color  #3B5957 !important*/ }
+#site-title, #site-title a, #site-description { text-shadow: 0px 2px 0px rgba(255,255,255,.3), 0px -1px 0px rgba(0,0,0,.7); /*color  #3B5957 !important*/ }
 
 /*this controls the size of the icon, if it is used. it is switched off by default
 *dropping down to 32px (multiples of 16px)
 */
 #site-title::before { font-size: 32px; }
 
-h2#site-description { color: #000; font-family: "Lato", sans-serif; font-style: normal; }
+h2#site-description { color: #000; font-family: "Playfair Display",Georgia,serif; font-style: normal; }
 
 #branding { max-width: 70%; }
 
-.ltr .main .entry-title, .ltr .entry-header, .rtl .main .entry-title, .rtl .entry-header { text-align: left; }
+.ltr .main .entry-title, .ltr .entry-header { text-align: left; }
+.rtl .main .entry-title, .rtl .entry-header { text-align: right; }
 
-.ltr #reply-title, .rtl #reply-title { text-align: left; }
+.ltr #reply-title { text-align: left; }
+.rtl #reply-title { text-align: right; }
 
 #reply-title { border-bottom: 1px solid rgb(119,119,119, 0.1); padding-bottom: 2.25rem; }
 
@@ -57,7 +58,8 @@ h2#site-description { color: #000; font-family: "Lato", sans-serif; font-style: 
 
 .main .entry-subtitle { font-family: Lato,sans-serif; padding-top: 0.32em; }
 
-.ltr h1, .ltr h2, .ltr h3, .ltr h4, .ltr h5, .ltr h6, .rtl h1, .rtl h2, .rtl h3, .rtl h4, .rtl h5, .rtl h6 { border-bottom: 1px solid rgb(119,119,119, 0.1); text-align: left; }
+.ltr h1, .ltr h2, .ltr h3, .ltr h4, .ltr h5, .ltr h6 { border-bottom: 1px solid rgb(119,119,119, 0.1); text-align: left; }
+.rtl h1, .rtl h2, .rtl h3, .rtl h4, .rtl h5, .rtl h6 { border-bottom: 1px solid rgb(119,119,119, 0.1); text-align: right; }
 
 .singular h1, .singular h2, .singular h3, .singular h4, .singular h5, .singular h6 { margin-bottom: 2.25rem; padding-bottom: 1.35rem; }
 
@@ -78,7 +80,13 @@ h1:after, h2:after, h3:after, h4:after, h5:after, h6:after, .singular-literature
 /* 2. Buttons and Links
 ***************************************/
 
-#site-title a:link, #site-title a:hover, #site-title a:visited { text-decoration: none; }
+#site-title a:link, #site-title a:hover, #site-title a:visited { text-decoration: none !important; }
+
+/*new..to offer feedback for site title on hover*/
+#site-title a:hover{
+	color: #5cac22 !important;
+	text-decoration:none !important;
+}
 
 .menu-toggle button, .menu-toggle button:visited { background: rgba( 87, 139, 219, 0.95 ); }
 
@@ -88,7 +96,8 @@ button:hover, .menu-toggle button:hover, .media-info-toggle:hover { text-decorat
 
 #menu-primary li a:hover { background-color: #5cac22; }
 
-.ltr .more-link-wrap, .rtl .more-link-wrap { text-align: left; }
+.ltr .more-link-wrap { text-align: left; }
+.rtl .more-link-wrap { text-align: right; }
 
 .more-link-wrap { margin-bottom: 2.5rem; padding-top: 1.15rem; }
 
@@ -127,19 +136,22 @@ input[type='submit']:hover, input[type='submit']:focus, input[type='reset']:hove
 /* 3. Main Body
 ***************************************/
 
-.ltr .singular .entry-content, .ltr .singular .entry-footer, .ltr #respond,.rtl .singular .entry-content, .rtl .singular .entry-footer, .rtl #respond { text-align: left; }
+.ltr .singular .entry-content, .ltr .singular .entry-footer, .ltr #respond { text-align: left; }
+.rtl .singular .entry-content, .rtl .singular .entry-footer, .rtl #respond { text-align: right; }
 
 .singular .entry-content, { border-top: 1px solid rgb(119,119,119, 0.1); }
 
 
 
-.ltr .plural .entry-footer, .rtl .plural .entry-footer { text-align: left; }
+.ltr .plural .entry-footer { text-align: left; }
+.rtl .plural .entry-footer { text-align: right; }
 
 
 .plural .entry-footer { border-top: 1px solid rgb(119,119,119, 0.1); padding-top: 1.5rem; }
 
 
-.ltr .entry-footer, .rtl .entry-footer { text-align: left; }
+.ltr .entry-footer { text-align: left; }
+.rtl .entry-footer { text-align: right; }
 
 
 .format-aside .entry-terms { display: block; padding-top: 3rem; }
